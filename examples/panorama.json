@@ -1,0 +1,16 @@
+{
+  "id": "demo-panorama",
+  "title": "Od wejścia do okna",
+  "brief": {
+    "goal": "Pomóc obejrzeć mały pokój z perspektywy codziennego przejścia.",
+    "key_message": "Spacer przez pokój pokazuje, gdzie przeszkadzają rzeczy i gdzie najlepiej się zatrzymać.",
+    "cta": "Przejdź tę samą trasę u siebie.",
+    "channels": ["Instagram"]
+  },
+  "slides": [
+    {"role": "hook", "headline": "Od wejścia do okna", "body": "Przejdź przez swój pokój w trzech prostych krokach.", "alt_text": "Okładka Od wejścia do okna. Terakotowa linia zaczyna prowadzić przez kolejne kafelki."},
+    {"role": "content", "headline": "Stań w progu", "body": "Zobacz, gdzie zatrzymuje się wzrok i czy masz miejsce na pierwszy krok.", "alt_text": "Pierwszy krok: zatrzymaj się w progu. Terakotowa linia z okładki przechodzi przez dolną część slajdu."},
+    {"role": "content", "headline": "Przejdź przez środek", "body": "Zwróć uwagę, czy na trasie omijasz stolik, donicę albo kabel.", "alt_text": "Drugi krok: przejdź przez środek i sprawdź przeszkody. Terakotowa linia jest kontynuowana."},
+    {"role": "cta", "headline": "Zatrzymaj się przy oknie", "body": "Przejdź tę trasę jeszcze raz. Wybierz jedną rzecz, której położenie chcesz zmienić.", "alt_text": "Ostatni krok: podejdź do okna, powtórz trasę i wybierz jeden przedmiot do przestawienia. Linia kończy panoramę."}
+  ]
+}

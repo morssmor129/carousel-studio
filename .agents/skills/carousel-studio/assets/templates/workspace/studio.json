@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "studio_version": "1.0.0",
+  "language": "pl",
+  "default_brand_id": null,
+  "default_style_id": null,
+  "default_slide_count": 6,
+  "capabilities": {
+    "ai": {"status": "not_checked", "checked_at": null, "operations": []},
+    "canva": {"status": "not_checked", "checked_at": null, "operations": []},
+    "local_renderer": {"status": "not_checked", "checked_at": null, "operations": []}
+  },
+  "policy": {
+    "preserve_originals": true,
+    "deduplicate_exact_sha256": true,
+    "unknown_rights_blocks_release": true,
+    "publish_requires_user_instruction": true
+  }
+}

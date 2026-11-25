@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "brand-id",
+  "name": "",
+  "status": "draft",
+  "version": "1.0.0",
+  "audience": "",
+  "offer": "",
+  "tone": "",
+  "values": [],
+  "colors": [],
+  "fonts": {"heading": "", "body": "", "asset_ids": []},
+  "logo_asset_ids": [],
+  "photo_rules": "Oryginalne zdjęcia osób i produktów jako osobne warstwy. Bez zmiany ich tożsamości.",
+  "prohibited": [],
+  "approved_at": null,
+  "approval_notes": ""
+}

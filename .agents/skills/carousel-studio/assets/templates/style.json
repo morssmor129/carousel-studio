@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "style-id",
+  "name": "",
+  "status": "draft",
+  "version": "1.0.0",
+  "canvas": {"width": 1080, "height": 1350},
+  "safe_margin": 80,
+  "grid": {"columns": 12, "gutter": 24},
+  "typography": {
+    "heading": {"font": "", "size_px": 72, "line_height": 1.05},
+    "body": {"font": "", "size_px": 36, "line_height": 1.25},
+    "caption": {"font": "", "size_px": 28, "line_height": 1.2}
+  },
+  "color_roles": {"background": "", "text": "", "accent": ""},
+  "photo_treatment": "",
+  "icon_rules": "",
+  "layout_rules": [],
+  "layout_files": [],
+  "reference_ids": [],
+  "approved_example_asset_ids": [],
+  "canva": {"template_id": null, "template_url": null, "revision": null, "font_substitutions": []},
+  "approved_at": null,
+  "approval_notes": ""
+}

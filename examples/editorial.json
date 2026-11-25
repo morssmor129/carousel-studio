@@ -1,0 +1,18 @@
+{
+  "id": "demo-editorial",
+  "title": "Biurko, które mieści się w domu",
+  "brief": {
+    "goal": "Dać czytelnikowi prosty plan urządzenia małego stanowiska pracy.",
+    "key_message": "Zacznij od miejsca i codziennych potrzeb.",
+    "cta": "Zapisz i wróć do listy przed przestawianiem mebli.",
+    "channels": ["Instagram"]
+  },
+  "slides": [
+    {"role": "hook", "headline": "Biurko, które mieści się w domu", "body": "Trzy decyzje przed zakupem mebli.", "alt_text": "Na ciemnozielonej okładce tytuł Biurko, które mieści się w domu i zapowiedź trzech decyzji przed zakupem mebli."},
+    {"role": "content", "headline": "Zacznij od światła", "body": "Usiądź w miejscu, które rozważasz. Sprawdź, z której strony pada światło i co odbija się w ekranie.", "alt_text": "Porada, aby sprawdzić przy biurku kierunek światła i odbicia na ekranie."},
+    {"role": "content", "headline": "Zmierz też miejsce na krzesło", "body": "Cofnij krzesło tak, jak przy wstawaniu. Zostaw miejsce na swobodne przejście.", "alt_text": "Porada, aby zmierzyć przestrzeń potrzebną na odsunięcie krzesła i przejście."},
+    {"role": "example", "headline": "Zostaw na blacie to, czego używasz", "body": "Jeśli codziennie sięgasz po notes i lampę, znajdź im stałe miejsce. Reszta może trafić do szuflady.", "alt_text": "Przykład organizacji blatu: notes i lampa pod ręką, pozostałe rzeczy w szufladzie."},
+    {"role": "cta", "headline": "Zapisz przed przemeblowaniem", "body": "Światło, miejsce na krzesło, rzeczy pod ręką. Sprawdź te trzy punkty w swoim domu.", "alt_text": "Ciemnozielony slajd z prośbą o zapisanie listy: światło, miejsce na krzesło i rzeczy pod ręką."}
+  ],
+  "caption": "Urządzasz kącik do pracy? Zacznij od tego, co masz już w domu. 🪑 Zapisz listę i sprawdź te trzy rzeczy przed przemeblowaniem."
+}

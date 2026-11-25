@@ -1,0 +1,15 @@
+{
+  "id": "demo-photo",
+  "title": "Paleta wybrana z jednego kadru",
+  "brief": {
+    "goal": "Pokazać, jak zdjęcie może poprowadzić wybór kolorów wnętrza.",
+    "key_message": "Podziel kolory z kadru według ich roli.",
+    "cta": "Wybierz swój kadr i nazwij trzy kolory.",
+    "channels": ["Instagram"]
+  },
+  "slides": [
+    {"role": "hook", "headline": "Paleta z jednego kadru", "body": "Zacznij od zdjęcia, do którego lubisz wracać.", "alt_text": "Neutralna ilustracja z zielonym trójkątem i terakotowym pierścieniem na jasnym tle. Nagłówek: Paleta z jednego kadru."},
+    {"role": "example", "headline": "Tło, kontrast, akcent", "body": "Tutaj jasny beż wypełnia tło, ciemna zieleń daje kontrast, a terakota przyciąga wzrok.", "alt_text": "Trzy role kolorów z poprzedniej ilustracji: jasny beż jako tło, ciemna zieleń jako kontrast i terakota jako akcent."},
+    {"role": "cta", "headline": "Wybierz swój kadr", "body": "Wskaż kolor dominujący, kontrastujący i ten, którego wystarczy trochę.", "alt_text": "Zadanie: wybrać własne zdjęcie i wskazać na nim tło, kontrast i mały akcent."}
+  ]
+}

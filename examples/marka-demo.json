@@ -1,0 +1,16 @@
+{
+  "brand": {
+    "id": "przesmyk-demo",
+    "name": "Pracownia Przesmyk",
+    "offer": "Koncepcje niewielkich wnętrz do pracy i wypoczynku.",
+    "audience": "Osoby urządzające małe mieszkanie.",
+    "tone": "Spokojny, konkretny i życzliwy."
+  },
+  "style": {
+    "id": "przesmyk-editorial",
+    "name": "Ciepły minimalizm",
+    "layout": "editorial",
+    "height": 1350,
+    "color_roles": {"background": "#F8F1E4", "text": "#173B35", "accent": "#BE533D"}
+  }
+}
