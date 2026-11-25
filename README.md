@@ -28,6 +28,8 @@ python3 -m venv .venv
 
 ## Przykłady bez własnych materiałów
 
+Zobacz [gotowe dema ze zdjęciami stockowymi](demos/README.md). Są tam porównanie szablonów, trzy karuzele weselne, podglądy slajdów, paczki ZIP i źródła zdjęć.
+
 Poproś w czacie **„Pokaż mi trzy przykładowe karuzele”.** Możesz też użyć `python tools/carousel.py demo all` z interpreterem, w którym jest Pillow. Przykłady zapisują się w `.studio/examples/projects/` i zwracają linki do własnych podglądów i ZIP-ów. [Opisy układów i pliki wejściowe](examples/README.md)
 
 ## Gdzie są pliki
@@ -36,6 +38,7 @@ Poproś w czacie **„Pokaż mi trzy przykładowe karuzele”.** Możesz też u�
 | --- | --- |
 | `.agents/skills/carousel-studio/` | Instrukcje agenta, puste szablony i narzędzia do obsługi biblioteki oraz QA |
 | `examples/` | Odtwarzalne przykłady fikcyjnej marki |
+| `demos/` | Gotowe karuzele demonstracyjne, podglądy, ZIP-y i źródła zdjęć stockowych |
 | `tools/` | Konfiguracja, skład, podgląd i eksport |
 | `.studio/` | Lokalne profile, referencje, zdjęcia, projekty, eksporty i raporty. Katalog jest ignorowany przez Git. |
 

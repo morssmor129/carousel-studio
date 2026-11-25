@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo weselne · Carousel Studio</title>
+<style>
+  :root { color-scheme: light; --ink:#183930; --sub:#526359; --paper:#f6f0e4; --card:#fffdf8; --rule:#d8cfbf; --accent:#805037; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.45 system-ui,sans-serif; color:var(--ink); background:var(--paper); }
+  .wrap { width:min(1060px, calc(100% - 40px)); margin-inline:auto; }
+  .hero { padding:32px 0 35px; background:#193931; color:#fff9ef; border-bottom:4px solid #c18c64; }
+  .brand { font-size:14px; color:#f1c8a8; font-weight:650; }
+  h1,h2 { font-family:Georgia,"Times New Roman",serif; }
+  h1 { font-size:clamp(40px,7vw,72px); line-height:1.04; margin:10px 0 9px; letter-spacing:-.04em; }
+  .hero p { margin:0; color:#e4e9df; }
+  main { padding-block:22px 38px; }
+  .gallery { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+  .card { min-width:0; display:flex; flex-direction:column; border:1px solid var(--rule); background:var(--card); border-radius:9px; overflow:hidden; }
+  .art { height:clamp(115px,23vw,220px); display:flex; align-items:center; justify-content:center; gap:4px; padding:9px; background:#e2d7c6; overflow:hidden; }
+  .art.joined { gap:0; }
+  .art img { height:auto; max-height:100%; width:calc((100% - 4px)/2); aspect-ratio:4 / 5; object-fit:contain; }
+  .text { padding:12px 12px 13px; flex:1; display:flex; flex-direction:column; }
+  .kind { color:var(--accent); font-size:.82rem; font-weight:760; }
+  h2 { margin:4px 0 5px; line-height:1.13; font-size:clamp(19px,3vw,27px); }
+  .text p { margin:0 0 12px; color:var(--sub); font-size:.9rem; }
+  .links { display:flex; flex-wrap:wrap; gap:6px; margin-top:auto; }
+  .action { display:inline-flex; align-items:center; justify-content:center; min-height:36px; border-radius:5px; padding:4px 8px; color:var(--ink); background:var(--card); border:1px solid #b5b9a9; text-decoration:none; font-size:.84rem; font-weight:720; }
+  .primary { background:var(--ink); color:white; border-color:var(--ink); }
+  .action:hover { text-decoration:underline; text-underline-offset:2px; }
+  a:focus-visible { outline:3px solid #b47049; outline-offset:2px; }
+  .bundle { margin-top:18px; }
+  @media(max-width:575px) {
+    .wrap { width:calc(100% - 26px); }
+    .hero { padding-block:19px 23px; }
+    h1 { font-size:41px; }
+    .gallery { grid-template-columns:1fr; }
+    .card { display:grid; grid-template-columns:minmax(113px,32%) 1fr; }
+    .art { height:auto; min-height:130px; padding:5px; }
+  }
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="brand">Carousel Studio</div>
+  <h1>Demo weselne</h1>
+  <p>Trzy różne karuzele do obejrzenia i pobrania.</p>
+</div></header>
+<main class="wrap">
+  <div class="gallery"><article class="card"><a class="art" href="fotograficzna/PRZEGLAD_KARUZEL.html" aria-label="Obejrzyj karuzelę Zanim ruszy parkiet"><img src="fotograficzna/exports/v001/slide-01.png" alt="Konsola i laptop DJ-a w ciepłym i niebieskim świetle. Tytuł Zanim ruszy parkiet." width="1080" height="1350"><img src="fotograficzna/exports/v001/slide-02.png" alt="Para idzie pomiędzy klaszczącymi gośćmi. Obok zdjęcia wskazówka, by wybrać utwór i zaznaczyć właściwy fragment." width="1080" height="1350"></a><div class="text"><div class="kind">Fotograficzna</div><h2>Zanim ruszy parkiet</h2><p>Pięć slajdów. Cztery zdjęcia prowadzą przez trzy ustalenia z DJ-em.</p><div class="links"><a class="action primary" href="fotograficzna/PRZEGLAD_KARUZEL.html">Podgląd</a><a class="action" href="fotograficzna/downloads/demo-fotograficzne-wesele-pakiet-v001.zip" download>Pobierz ZIP</a></div></div></article><article class="card"><a class="art" href="checklista/PRZEGLAD_KARUZEL.html" aria-label="Obejrzyj karuzelę Playlista weselna bez zgadywania"><img src="checklista/exports/v001/slide-01.png" alt="Okładka checklisty. Tytuł Playlista weselna bez zgadywania i kadr konsoli DJ-a." width="1080" height="1350"><img src="checklista/exports/v001/slide-02.png" alt="Lista rzeczy do przekazania DJ-owi przy ważnych utworach: tytuł, wykonawca, wersja, moment i fragment." width="1080" height="1350"></a><div class="text"><div class="kind">Checklista</div><h2>Playlista weselna bez zgadywania</h2><p>Cztery slajdy z listami: zagraj, pomiń i do decyzji DJ-a.</p><div class="links"><a class="action primary" href="checklista/PRZEGLAD_KARUZEL.html">Podgląd</a><a class="action" href="checklista/downloads/demo-checklista-weselna-pakiet-v001.zip" download>Pobierz ZIP</a></div></div></article><article class="card"><a class="art joined" href="panorama/PRZEGLAD_KARUZEL.html" aria-label="Obejrzyj karuzelę Najpierw oklaski"><img src="panorama/exports/v001/slide-01.png" alt="Lewa połowa szerokiego zdjęcia. Goście klaszczą pod girlandami podczas wesela w plenerze." width="1080" height="1350"><img src="panorama/exports/v001/slide-02.png" alt="Prawa połowa tego samego zdjęcia. Para całuje się pod girlandami pośród klaszczących gości." width="1080" height="1350"></a><div class="text"><div class="kind">Panorama</div><h2>Najpierw oklaski</h2><p>Dwa slajdy połączone jednym zdjęciem na całej powierzchni.</p><div class="links"><a class="action primary" href="panorama/PRZEGLAD_KARUZEL.html">Podgląd</a><a class="action" href="panorama/downloads/demo-panorama-weselna-pakiet-v001.zip" download>Pobierz ZIP</a></div></div></article></div>
+  <div class="bundle"><a class="action" href="downloads/demo-weselne-trzy-karuzele.zip" download>Pobierz wszystkie 3 karuzele</a></div>
+</main>
+</body></html>
